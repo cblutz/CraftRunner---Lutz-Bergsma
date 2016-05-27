@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B78C3D01CF8647A0096BFF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B78C3CF1CF8647A0096BFF2 /* AppDelegate.swift */; };
+		5B78C3D21CF8647A0096BFF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B78C3D11CF8647A0096BFF2 /* ViewController.swift */; };
+		5B78C3D51CF8647A0096BFF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B78C3D31CF8647A0096BFF2 /* Main.storyboard */; };
+		5B78C3D71CF8647A0096BFF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B78C3D61CF8647A0096BFF2 /* Assets.xcassets */; };
+		5B78C3DA1CF8647A0096BFF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B78C3D81CF8647A0096BFF2 /* LaunchScreen.storyboard */; };
+		5B78C3E51CF8647A0096BFF2 /* CraftRunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B78C3E41CF8647A0096BFF2 /* CraftRunnerTests.swift */; };
+		5B78C3F01CF8647A0096BFF2 /* CraftRunnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B78C3EF1CF8647A0096BFF2 /* CraftRunnerUITests.swift */; };
+		5B78C3F51CF8647A0096BFF2 /* CraftRunner WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5B78C3F41CF8647A0096BFF2 /* CraftRunner WatchKit App.app */; };
+		5B78C3FB1CF8647A0096BFF2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B78C3F91CF8647A0096BFF2 /* Interface.storyboard */; };
+		5B78C3FD1CF8647A0096BFF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B78C3FC1CF8647A0096BFF2 /* Assets.xcassets */; };
+		5B78C4041CF8647A0096BFF2 /* CraftRunner WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5B78C4031CF8647A0096BFF2 /* CraftRunner WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5B78C40B1CF8647A0096BFF2 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B78C40A1CF8647A0096BFF2 /* InterfaceController.swift */; };
+		5B78C40D1CF8647A0096BFF2 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B78C40C1CF8647A0096BFF2 /* ExtensionDelegate.swift */; };
+		5B78C40F1CF8647A0096BFF2 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B78C40E1CF8647A0096BFF2 /* NotificationController.swift */; };
+		5B78C4111CF8647A0096BFF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B78C4101CF8647A0096BFF2 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B78C3E11CF8647A0096BFF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B78C3C41CF864790096BFF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B78C3CB1CF864790096BFF2;
+			remoteInfo = CraftRunner;
+		};
+		5B78C3EC1CF8647A0096BFF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B78C3C41CF864790096BFF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B78C3CB1CF864790096BFF2;
+			remoteInfo = CraftRunner;
+		};
+		5B78C3F61CF8647A0096BFF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B78C3C41CF864790096BFF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B78C3F31CF8647A0096BFF2;
+			remoteInfo = "CraftRunner WatchKit App";
+		};
+		5B78C4051CF8647A0096BFF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B78C3C41CF864790096BFF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B78C4021CF8647A0096BFF2;
+			remoteInfo = "CraftRunner WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5B78C4181CF8647A0096BFF2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5B78C4041CF8647A0096BFF2 /* CraftRunner WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B78C41C1CF8647A0096BFF2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5B78C3F51CF8647A0096BFF2 /* CraftRunner WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5B78C3CC1CF864790096BFF2 /* CraftRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CraftRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B78C3CF1CF8647A0096BFF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B78C3D11CF8647A0096BFF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B78C3D41CF8647A0096BFF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B78C3D61CF8647A0096BFF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B78C3D91CF8647A0096BFF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B78C3DB1CF8647A0096BFF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B78C3E01CF8647A0096BFF2 /* CraftRunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CraftRunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B78C3E41CF8647A0096BFF2 /* CraftRunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraftRunnerTests.swift; sourceTree = "<group>"; };
+		5B78C3E61CF8647A0096BFF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B78C3EB1CF8647A0096BFF2 /* CraftRunnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CraftRunnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B78C3EF1CF8647A0096BFF2 /* CraftRunnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraftRunnerUITests.swift; sourceTree = "<group>"; };
+		5B78C3F11CF8647A0096BFF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B78C3F41CF8647A0096BFF2 /* CraftRunner WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CraftRunner WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B78C3FA1CF8647A0096BFF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		5B78C3FC1CF8647A0096BFF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B78C3FE1CF8647A0096BFF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B78C4031CF8647A0096BFF2 /* CraftRunner WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CraftRunner WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B78C4091CF8647A0096BFF2 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		5B78C40A1CF8647A0096BFF2 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		5B78C40C1CF8647A0096BFF2 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		5B78C40E1CF8647A0096BFF2 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		5B78C4101CF8647A0096BFF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B78C4121CF8647A0096BFF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B78C3C91CF864790096BFF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B78C3DD1CF8647A0096BFF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B78C3E81CF8647A0096BFF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B78C4001CF8647A0096BFF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B78C3C31CF864790096BFF2 = {
+			isa = PBXGroup;
+			children = (
+				5B78C3CE1CF8647A0096BFF2 /* CraftRunner */,
+				5B78C3E31CF8647A0096BFF2 /* CraftRunnerTests */,
+				5B78C3EE1CF8647A0096BFF2 /* CraftRunnerUITests */,
+				5B78C3F81CF8647A0096BFF2 /* CraftRunner WatchKit App */,
+				5B78C4071CF8647A0096BFF2 /* CraftRunner WatchKit Extension */,
+				5B78C3CD1CF864790096BFF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B78C3CD1CF864790096BFF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B78C3CC1CF864790096BFF2 /* CraftRunner.app */,
+				5B78C3E01CF8647A0096BFF2 /* CraftRunnerTests.xctest */,
+				5B78C3EB1CF8647A0096BFF2 /* CraftRunnerUITests.xctest */,
+				5B78C3F41CF8647A0096BFF2 /* CraftRunner WatchKit App.app */,
+				5B78C4031CF8647A0096BFF2 /* CraftRunner WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B78C3CE1CF8647A0096BFF2 /* CraftRunner */ = {
+			isa = PBXGroup;
+			children = (
+				5B78C3CF1CF8647A0096BFF2 /* AppDelegate.swift */,
+				5B78C3D11CF8647A0096BFF2 /* ViewController.swift */,
+				5B78C3D31CF8647A0096BFF2 /* Main.storyboard */,
+				5B78C3D61CF8647A0096BFF2 /* Assets.xcassets */,
+				5B78C3D81CF8647A0096BFF2 /* LaunchScreen.storyboard */,
+				5B78C3DB1CF8647A0096BFF2 /* Info.plist */,
+			);
+			path = CraftRunner;
+			sourceTree = "<group>";
+		};
+		5B78C3E31CF8647A0096BFF2 /* CraftRunnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B78C3E41CF8647A0096BFF2 /* CraftRunnerTests.swift */,
+				5B78C3E61CF8647A0096BFF2 /* Info.plist */,
+			);
+			path = CraftRunnerTests;
+			sourceTree = "<group>";
+		};
+		5B78C3EE1CF8647A0096BFF2 /* CraftRunnerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B78C3EF1CF8647A0096BFF2 /* CraftRunnerUITests.swift */,
+				5B78C3F11CF8647A0096BFF2 /* Info.plist */,
+			);
+			path = CraftRunnerUITests;
+			sourceTree = "<group>";
+		};
+		5B78C3F81CF8647A0096BFF2 /* CraftRunner WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				5B78C3F91CF8647A0096BFF2 /* Interface.storyboard */,
+				5B78C3FC1CF8647A0096BFF2 /* Assets.xcassets */,
+				5B78C3FE1CF8647A0096BFF2 /* Info.plist */,
+			);
+			path = "CraftRunner WatchKit App";
+			sourceTree = "<group>";
+		};
+		5B78C4071CF8647A0096BFF2 /* CraftRunner WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5B78C40A1CF8647A0096BFF2 /* InterfaceController.swift */,
+				5B78C40C1CF8647A0096BFF2 /* ExtensionDelegate.swift */,
+				5B78C40E1CF8647A0096BFF2 /* NotificationController.swift */,
+				5B78C4101CF8647A0096BFF2 /* Assets.xcassets */,
+				5B78C4121CF8647A0096BFF2 /* Info.plist */,
+				5B78C4081CF8647A0096BFF2 /* Supporting Files */,
+			);
+			path = "CraftRunner WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		5B78C4081CF8647A0096BFF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B78C4091CF8647A0096BFF2 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B78C3CB1CF864790096BFF2 /* CraftRunner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B78C41D1CF8647A0096BFF2 /* Build configuration list for PBXNativeTarget "CraftRunner" */;
+			buildPhases = (
+				5B78C3C81CF864790096BFF2 /* Sources */,
+				5B78C3C91CF864790096BFF2 /* Frameworks */,
+				5B78C3CA1CF864790096BFF2 /* Resources */,
+				5B78C41C1CF8647A0096BFF2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B78C3F71CF8647A0096BFF2 /* PBXTargetDependency */,
+			);
+			name = CraftRunner;
+			productName = CraftRunner;
+			productReference = 5B78C3CC1CF864790096BFF2 /* CraftRunner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B78C3DF1CF8647A0096BFF2 /* CraftRunnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B78C4201CF8647A0096BFF2 /* Build configuration list for PBXNativeTarget "CraftRunnerTests" */;
+			buildPhases = (
+				5B78C3DC1CF8647A0096BFF2 /* Sources */,
+				5B78C3DD1CF8647A0096BFF2 /* Frameworks */,
+				5B78C3DE1CF8647A0096BFF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B78C3E21CF8647A0096BFF2 /* PBXTargetDependency */,
+			);
+			name = CraftRunnerTests;
+			productName = CraftRunnerTests;
+			productReference = 5B78C3E01CF8647A0096BFF2 /* CraftRunnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B78C3EA1CF8647A0096BFF2 /* CraftRunnerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B78C4231CF8647A0096BFF2 /* Build configuration list for PBXNativeTarget "CraftRunnerUITests" */;
+			buildPhases = (
+				5B78C3E71CF8647A0096BFF2 /* Sources */,
+				5B78C3E81CF8647A0096BFF2 /* Frameworks */,
+				5B78C3E91CF8647A0096BFF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B78C3ED1CF8647A0096BFF2 /* PBXTargetDependency */,
+			);
+			name = CraftRunnerUITests;
+			productName = CraftRunnerUITests;
+			productReference = 5B78C3EB1CF8647A0096BFF2 /* CraftRunnerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5B78C3F31CF8647A0096BFF2 /* CraftRunner WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B78C4191CF8647A0096BFF2 /* Build configuration list for PBXNativeTarget "CraftRunner WatchKit App" */;
+			buildPhases = (
+				5B78C3F21CF8647A0096BFF2 /* Resources */,
+				5B78C4181CF8647A0096BFF2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B78C4061CF8647A0096BFF2 /* PBXTargetDependency */,
+			);
+			name = "CraftRunner WatchKit App";
+			productName = "CraftRunner WatchKit App";
+			productReference = 5B78C3F41CF8647A0096BFF2 /* CraftRunner WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		5B78C4021CF8647A0096BFF2 /* CraftRunner WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B78C4151CF8647A0096BFF2 /* Build configuration list for PBXNativeTarget "CraftRunner WatchKit Extension" */;
+			buildPhases = (
+				5B78C3FF1CF8647A0096BFF2 /* Sources */,
+				5B78C4001CF8647A0096BFF2 /* Frameworks */,
+				5B78C4011CF8647A0096BFF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CraftRunner WatchKit Extension";
+			productName = "CraftRunner WatchKit Extension";
+			productReference = 5B78C4031CF8647A0096BFF2 /* CraftRunner WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B78C3C41CF864790096BFF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Lutz Bergsma Software";
+				TargetAttributes = {
+					5B78C3CB1CF864790096BFF2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5B78C3DF1CF8647A0096BFF2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5B78C3CB1CF864790096BFF2;
+					};
+					5B78C3EA1CF8647A0096BFF2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5B78C3CB1CF864790096BFF2;
+					};
+					5B78C3F31CF8647A0096BFF2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5B78C4021CF8647A0096BFF2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5B78C3C71CF864790096BFF2 /* Build configuration list for PBXProject "CraftRunner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B78C3C31CF864790096BFF2;
+			productRefGroup = 5B78C3CD1CF864790096BFF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B78C3CB1CF864790096BFF2 /* CraftRunner */,
+				5B78C3DF1CF8647A0096BFF2 /* CraftRunnerTests */,
+				5B78C3EA1CF8647A0096BFF2 /* CraftRunnerUITests */,
+				5B78C3F31CF8647A0096BFF2 /* CraftRunner WatchKit App */,
+				5B78C4021CF8647A0096BFF2 /* CraftRunner WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B78C3CA1CF864790096BFF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B78C3DA1CF8647A0096BFF2 /* LaunchScreen.storyboard in Resources */,
+				5B78C3D71CF8647A0096BFF2 /* Assets.xcassets in Resources */,
+				5B78C3D51CF8647A0096BFF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B78C3DE1CF8647A0096BFF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B78C3E91CF8647A0096BFF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B78C3F21CF8647A0096BFF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B78C3FD1CF8647A0096BFF2 /* Assets.xcassets in Resources */,
+				5B78C3FB1CF8647A0096BFF2 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B78C4011CF8647A0096BFF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B78C4111CF8647A0096BFF2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B78C3C81CF864790096BFF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B78C3D21CF8647A0096BFF2 /* ViewController.swift in Sources */,
+				5B78C3D01CF8647A0096BFF2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B78C3DC1CF8647A0096BFF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B78C3E51CF8647A0096BFF2 /* CraftRunnerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B78C3E71CF8647A0096BFF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B78C3F01CF8647A0096BFF2 /* CraftRunnerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B78C3FF1CF8647A0096BFF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B78C40F1CF8647A0096BFF2 /* NotificationController.swift in Sources */,
+				5B78C40D1CF8647A0096BFF2 /* ExtensionDelegate.swift in Sources */,
+				5B78C40B1CF8647A0096BFF2 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B78C3E21CF8647A0096BFF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B78C3CB1CF864790096BFF2 /* CraftRunner */;
+			targetProxy = 5B78C3E11CF8647A0096BFF2 /* PBXContainerItemProxy */;
+		};
+		5B78C3ED1CF8647A0096BFF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B78C3CB1CF864790096BFF2 /* CraftRunner */;
+			targetProxy = 5B78C3EC1CF8647A0096BFF2 /* PBXContainerItemProxy */;
+		};
+		5B78C3F71CF8647A0096BFF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B78C3F31CF8647A0096BFF2 /* CraftRunner WatchKit App */;
+			targetProxy = 5B78C3F61CF8647A0096BFF2 /* PBXContainerItemProxy */;
+		};
+		5B78C4061CF8647A0096BFF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B78C4021CF8647A0096BFF2 /* CraftRunner WatchKit Extension */;
+			targetProxy = 5B78C4051CF8647A0096BFF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B78C3D31CF8647A0096BFF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B78C3D41CF8647A0096BFF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B78C3D81CF8647A0096BFF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B78C3D91CF8647A0096BFF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5B78C3F91CF8647A0096BFF2 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B78C3FA1CF8647A0096BFF2 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B78C4131CF8647A0096BFF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B78C4141CF8647A0096BFF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B78C4161CF8647A0096BFF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CraftRunner WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LutzBergsmasoft.CraftRunner.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		5B78C4171CF8647A0096BFF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CraftRunner WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LutzBergsmasoft.CraftRunner.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		5B78C41A1CF8647A0096BFF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = CraftRunner_WatchKit_Extension;
+				INFOPLIST_FILE = "CraftRunner WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LutzBergsmasoft.CraftRunner.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		5B78C41B1CF8647A0096BFF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = CraftRunner_WatchKit_Extension;
+				INFOPLIST_FILE = "CraftRunner WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LutzBergsmasoft.CraftRunner.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		5B78C41E1CF8647A0096BFF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CraftRunner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LutzBergsmasoft.CraftRunner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B78C41F1CF8647A0096BFF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CraftRunner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LutzBergsmasoft.CraftRunner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5B78C4211CF8647A0096BFF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CraftRunnerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LutzBergsmasoft.CraftRunnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CraftRunner.app/CraftRunner";
+			};
+			name = Debug;
+		};
+		5B78C4221CF8647A0096BFF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CraftRunnerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LutzBergsmasoft.CraftRunnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CraftRunner.app/CraftRunner";
+			};
+			name = Release;
+		};
+		5B78C4241CF8647A0096BFF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CraftRunnerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LutzBergsmasoft.CraftRunnerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CraftRunner;
+			};
+			name = Debug;
+		};
+		5B78C4251CF8647A0096BFF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CraftRunnerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LutzBergsmasoft.CraftRunnerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CraftRunner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B78C3C71CF864790096BFF2 /* Build configuration list for PBXProject "CraftRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B78C4131CF8647A0096BFF2 /* Debug */,
+				5B78C4141CF8647A0096BFF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B78C4151CF8647A0096BFF2 /* Build configuration list for PBXNativeTarget "CraftRunner WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B78C4161CF8647A0096BFF2 /* Debug */,
+				5B78C4171CF8647A0096BFF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B78C4191CF8647A0096BFF2 /* Build configuration list for PBXNativeTarget "CraftRunner WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B78C41A1CF8647A0096BFF2 /* Debug */,
+				5B78C41B1CF8647A0096BFF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B78C41D1CF8647A0096BFF2 /* Build configuration list for PBXNativeTarget "CraftRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B78C41E1CF8647A0096BFF2 /* Debug */,
+				5B78C41F1CF8647A0096BFF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B78C4201CF8647A0096BFF2 /* Build configuration list for PBXNativeTarget "CraftRunnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B78C4211CF8647A0096BFF2 /* Debug */,
+				5B78C4221CF8647A0096BFF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B78C4231CF8647A0096BFF2 /* Build configuration list for PBXNativeTarget "CraftRunnerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B78C4241CF8647A0096BFF2 /* Debug */,
+				5B78C4251CF8647A0096BFF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B78C3C41CF864790096BFF2 /* Project object */;
+}
