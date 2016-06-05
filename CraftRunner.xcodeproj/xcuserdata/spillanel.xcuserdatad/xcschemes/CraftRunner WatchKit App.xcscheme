@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0730"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5B78C3F31CF8647A0096BFF2"
+               BuildableName = "CraftRunner WatchKit App.app"
+               BlueprintName = "CraftRunner WatchKit App"
+               ReferencedContainer = "container:CraftRunner.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5B78C4021CF8647A0096BFF2"
+               BuildableName = "CraftRunner WatchKit Extension.appex"
+               BlueprintName = "CraftRunner WatchKit Extension"
+               ReferencedContainer = "container:CraftRunner.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5B78C3CB1CF864790096BFF2"
+               BuildableName = "CraftRunner.app"
+               BlueprintName = "CraftRunner"
+               ReferencedContainer = "container:CraftRunner.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5B78C3F31CF8647A0096BFF2"
+            BuildableName = "CraftRunner WatchKit App.app"
+            BlueprintName = "CraftRunner WatchKit App"
+            ReferencedContainer = "container:CraftRunner.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/CraftRunner WatchKit App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5B78C3F31CF8647A0096BFF2"
+            BuildableName = "CraftRunner WatchKit App.app"
+            BlueprintName = "CraftRunner WatchKit App"
+            ReferencedContainer = "container:CraftRunner.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5B78C3F31CF8647A0096BFF2"
+            BuildableName = "CraftRunner WatchKit App.app"
+            BlueprintName = "CraftRunner WatchKit App"
+            ReferencedContainer = "container:CraftRunner.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/CraftRunner WatchKit App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5B78C3F31CF8647A0096BFF2"
+            BuildableName = "CraftRunner WatchKit App.app"
+            BlueprintName = "CraftRunner WatchKit App"
+            ReferencedContainer = "container:CraftRunner.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5B78C3F31CF8647A0096BFF2"
+            BuildableName = "CraftRunner WatchKit App.app"
+            BlueprintName = "CraftRunner WatchKit App"
+            ReferencedContainer = "container:CraftRunner.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
