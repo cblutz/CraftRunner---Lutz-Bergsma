@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class coreGame {
+public class coreGame {
     
     static var resInv = []
     static var craftedInv = []
@@ -19,7 +19,10 @@ class coreGame {
     static var knownKeys = []
     static var knownValues = []
     
-    func game(gameText: UILabel) -> Void {
+    
+    
+    public func play(gameText: UILabel, terrain: String) -> Void {
+        
         
     }
     

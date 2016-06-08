@@ -9,13 +9,12 @@
 import UIKit
 
 class TabBarController: UITabBarController {
-
-    @IBOutlet weak var gameText: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        print("TEST VIEW DID LOAD")
+        
     }
 
     override func didReceiveMemoryWarning() {

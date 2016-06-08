@@ -23,6 +23,11 @@
 		5B78C40F1CF8647A0096BFF2 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B78C40E1CF8647A0096BFF2 /* NotificationController.swift */; };
 		5B78C4111CF8647A0096BFF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B78C4101CF8647A0096BFF2 /* Assets.xcassets */; };
 		8E29EBB11D04935700A3B927 /* CoreCraftGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E29EBB01D04935700A3B927 /* CoreCraftGame.swift */; };
+		8E5A3EFC1D05B6E3000BEA2D /* Mountain (placeholder).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E5A3EFB1D05B6E3000BEA2D /* Mountain (placeholder).jpg */; };
+		8E5A3EFE1D05B8ED000BEA2D /* Forest (Place Holder).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E5A3EFD1D05B8ED000BEA2D /* Forest (Place Holder).jpg */; };
+		8E5A3F001D05BA39000BEA2D /* Desert (placeholder).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E5A3EFF1D05BA39000BEA2D /* Desert (placeholder).jpg */; };
+		8E5A3F021D05BB1F000BEA2D /* Island (placeholder).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E5A3F011D05BB1F000BEA2D /* Island (placeholder).jpg */; };
+		8E5A3F041D07406D000BEA2D /* MainGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5A3F031D07406D000BEA2D /* MainGameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +112,11 @@
 		5B78C4101CF8647A0096BFF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B78C4121CF8647A0096BFF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E29EBB01D04935700A3B927 /* CoreCraftGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreCraftGame.swift; sourceTree = "<group>"; };
+		8E5A3EFB1D05B6E3000BEA2D /* Mountain (placeholder).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mountain (placeholder).jpg"; sourceTree = "<group>"; };
+		8E5A3EFD1D05B8ED000BEA2D /* Forest (Place Holder).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Forest (Place Holder).jpg"; sourceTree = "<group>"; };
+		8E5A3EFF1D05BA39000BEA2D /* Desert (placeholder).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Desert (placeholder).jpg"; sourceTree = "<group>"; };
+		8E5A3F011D05BB1F000BEA2D /* Island (placeholder).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Island (placeholder).jpg"; sourceTree = "<group>"; };
+		8E5A3F031D07406D000BEA2D /* MainGameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainGameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +182,11 @@
 				8E29EBB01D04935700A3B927 /* CoreCraftGame.swift */,
 				5B78C3D31CF8647A0096BFF2 /* Main.storyboard */,
 				5B78C3D11CF8647A0096BFF2 /* TabBarController.swift */,
+				8E5A3F031D07406D000BEA2D /* MainGameView.swift */,
+				8E5A3EFB1D05B6E3000BEA2D /* Mountain (placeholder).jpg */,
+				8E5A3EFD1D05B8ED000BEA2D /* Forest (Place Holder).jpg */,
+				8E5A3EFF1D05BA39000BEA2D /* Desert (placeholder).jpg */,
+				8E5A3F011D05BB1F000BEA2D /* Island (placeholder).jpg */,
 				5B78C3D61CF8647A0096BFF2 /* Assets.xcassets */,
 				5B78C3D81CF8647A0096BFF2 /* LaunchScreen.storyboard */,
 				5B78C3DB1CF8647A0096BFF2 /* Info.plist */,
@@ -377,8 +392,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E5A3EFE1D05B8ED000BEA2D /* Forest (Place Holder).jpg in Resources */,
+				8E5A3F021D05BB1F000BEA2D /* Island (placeholder).jpg in Resources */,
+				8E5A3EFC1D05B6E3000BEA2D /* Mountain (placeholder).jpg in Resources */,
 				5B78C3DA1CF8647A0096BFF2 /* LaunchScreen.storyboard in Resources */,
 				5B78C3D71CF8647A0096BFF2 /* Assets.xcassets in Resources */,
+				8E5A3F001D05BA39000BEA2D /* Desert (placeholder).jpg in Resources */,
 				5B78C3D51CF8647A0096BFF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +443,7 @@
 				5B78C3D21CF8647A0096BFF2 /* TabBarController.swift in Sources */,
 				8E29EBB11D04935700A3B927 /* CoreCraftGame.swift in Sources */,
 				5B78C3D01CF8647A0096BFF2 /* AppDelegate.swift in Sources */,
+				8E5A3F041D07406D000BEA2D /* MainGameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
