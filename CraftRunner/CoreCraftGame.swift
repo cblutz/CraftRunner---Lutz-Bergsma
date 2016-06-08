@@ -23,7 +23,7 @@ public class coreGame {
     
     public func play(gameText: UILabel, terrain: String) -> Void {
         
-        
+        print("Made it to the game function, but there is nothing here...yet!")
     }
     
     
