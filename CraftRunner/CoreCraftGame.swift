@@ -21,9 +21,33 @@ public class coreGame {
     
     
     
-    public func play(gameText: UILabel, terrain: String) -> Void {
+    public func play(gameText: UILabel, terrain: String, buttonOne: UIButton, buttonTwo: UIButton) -> Void {
         
-        print("Made it to the game function, but there is nothing here...yet!")
+        //print("Made it to the game function, but there is nothing here...yet!")
+        
+        gameText.text = "You suddenly wake up in the middle of a vast forest."
+        
+        
+        var timeDelay = 2.5 * Double(NSEC_PER_SEC)
+        
+        var time = dispatch_time(DISPATCH_TIME_NOW, Int64(timeDelay))
+        
+        dispatch_after(time, dispatch_get_main_queue()){
+            UIView.animateWithDuration(2.5, animations: {
+                gameText.alpha = 0
+                
+                
+            })
+            gameText.text = "You look around"
+            
+            UIView.animateWithDuration(1.5, animations: {
+                gameText.alpha = 1
+                
+                
+            })
+        }
+        
+        
     }
     
     

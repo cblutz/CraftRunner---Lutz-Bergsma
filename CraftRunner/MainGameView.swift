@@ -21,6 +21,8 @@ class MainGameController: UIViewController {
     //Labels, Buttons etc.
     
     
+    @IBOutlet weak var moveButton: UIButton!
+    @IBOutlet weak var gatherButton: UIButton!
     @IBOutlet weak var gameText: UILabel!
     @IBOutlet weak var islandButton: UIButton!
     @IBOutlet weak var desertButton: UIButton!
@@ -30,7 +32,7 @@ class MainGameController: UIViewController {
     //Button Presses
     
     @IBAction func mountainPress(sender: AnyObject) {
-        coreGame().play(gameText, terrain: "Mountain")
+        coreGame().play(gameText, terrain: "Mountain", buttonOne: moveButton, buttonTwo: gatherButton)
         mountainBool = true
         makeButtonsInvis(islandButton, button2: desertButton, button3: forestButton, button4: mountainButton)
         gameText.hidden = false
@@ -39,7 +41,7 @@ class MainGameController: UIViewController {
     }
     
     @IBAction func forestPress(sender: AnyObject) {
-        coreGame().play(gameText, terrain: "Forest")
+        coreGame().play(gameText, terrain: "Forest", buttonOne: moveButton, buttonTwo: gatherButton)
         forestBool = true
         makeButtonsInvis(islandButton, button2: desertButton, button3: forestButton,  button4: mountainButton)
         gameText.hidden = false
@@ -49,7 +51,7 @@ class MainGameController: UIViewController {
     
  
     @IBAction func desertPress(sender: AnyObject) {
-        coreGame().play(gameText, terrain: "Desert")
+        coreGame().play(gameText, terrain: "Desert", buttonOne: moveButton, buttonTwo: gatherButton)
         desertBool = true
         makeButtonsInvis(islandButton, button2: desertButton, button3: forestButton, button4: mountainButton)
         gameText.hidden = false
@@ -57,7 +59,7 @@ class MainGameController: UIViewController {
         self.view.backgroundColor = UIColor.brownColor()
     }
     @IBAction func islandPress(sender: AnyObject) {
-        coreGame().play(gameText, terrain: "Island")
+        coreGame().play(gameText, terrain: "Island", buttonOne: moveButton, buttonTwo: gatherButton)
         islandBool = true
         makeButtonsInvis(islandButton, button2: desertButton, button3: forestButton, button4: mountainButton)
         gameText.hidden = false

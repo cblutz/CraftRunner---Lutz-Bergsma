@@ -77,12 +77,29 @@
                                     <action selector="forestPress:" destination="aE9-R0-JNX" eventType="touchUpInside" id="h3B-23-2CR"/>
                                 </connections>
                             </button>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t5H-Rz-Q1u">
-                                <rect key="frame" x="166" y="271" width="42" height="21"/>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t5H-Rz-Q1u">
+                                <rect key="frame" x="36" y="271" width="302" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="302" id="ZJv-mT-XNE"/>
+                                    <constraint firstAttribute="width" constant="335" id="ZPd-sG-bpE"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="ZPd-sG-bpE"/>
+                                    </mask>
+                                </variation>
                             </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="944-gX-PWZ">
+                                <rect key="frame" x="75" y="332" width="61" height="30"/>
+                                <state key="normal" title="GATHER"/>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWK-o3-hsw">
+                                <rect key="frame" x="250" y="332" width="59" height="30"/>
+                                <state key="normal" title="MOVE"/>
+                            </button>
                         </subviews>
                         <constraints>
                             <constraint firstItem="hcx-su-Ahq" firstAttribute="centerY" secondItem="M1W-Gq-ihj" secondAttribute="centerY" constant="-62" id="0EL-jo-jzm"/>
@@ -149,8 +166,10 @@
                         <outlet property="desertButton" destination="5y3-CM-778" id="65R-P0-2zP"/>
                         <outlet property="forestButton" destination="LAS-3O-Fgb" id="pe3-Vp-d68"/>
                         <outlet property="gameText" destination="t5H-Rz-Q1u" id="lp0-cd-PQC"/>
+                        <outlet property="gatherButton" destination="944-gX-PWZ" id="nax-rR-Hgh"/>
                         <outlet property="islandButton" destination="hcx-su-Ahq" id="5DE-p2-ixF"/>
                         <outlet property="mountainButton" destination="ULa-ig-tVa" id="dW7-rt-aeL"/>
+                        <outlet property="moveButton" destination="DWK-o3-hsw" id="kEJ-dT-R04"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FWO-VO-yZq" userLabel="First Responder" sceneMemberID="firstResponder"/>
