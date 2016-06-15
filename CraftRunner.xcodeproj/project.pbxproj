@@ -28,6 +28,7 @@
 		8E5A3F001D05BA39000BEA2D /* Desert (placeholder).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E5A3EFF1D05BA39000BEA2D /* Desert (placeholder).jpg */; };
 		8E5A3F021D05BB1F000BEA2D /* Island (placeholder).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E5A3F011D05BB1F000BEA2D /* Island (placeholder).jpg */; };
 		8E5A3F041D07406D000BEA2D /* MainGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5A3F031D07406D000BEA2D /* MainGameView.swift */; };
+		8E9401331D11B33C00B3B050 /* InventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9401321D11B33C00B3B050 /* InventoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +118,7 @@
 		8E5A3EFF1D05BA39000BEA2D /* Desert (placeholder).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Desert (placeholder).jpg"; sourceTree = "<group>"; };
 		8E5A3F011D05BB1F000BEA2D /* Island (placeholder).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Island (placeholder).jpg"; sourceTree = "<group>"; };
 		8E5A3F031D07406D000BEA2D /* MainGameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainGameView.swift; sourceTree = "<group>"; };
+		8E9401321D11B33C00B3B050 /* InventoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 				5B78C3CF1CF8647A0096BFF2 /* AppDelegate.swift */,
 				8E29EBB01D04935700A3B927 /* CoreCraftGame.swift */,
 				5B78C3D31CF8647A0096BFF2 /* Main.storyboard */,
+				8E9401321D11B33C00B3B050 /* InventoryView.swift */,
 				5B78C3D11CF8647A0096BFF2 /* TabBarController.swift */,
 				8E5A3F031D07406D000BEA2D /* MainGameView.swift */,
 				8E5A3EFB1D05B6E3000BEA2D /* Mountain (placeholder).jpg */,
@@ -441,6 +444,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B78C3D21CF8647A0096BFF2 /* TabBarController.swift in Sources */,
+				8E9401331D11B33C00B3B050 /* InventoryView.swift in Sources */,
 				8E29EBB11D04935700A3B927 /* CoreCraftGame.swift in Sources */,
 				5B78C3D01CF8647A0096BFF2 /* AppDelegate.swift in Sources */,
 				8E5A3F041D07406D000BEA2D /* MainGameView.swift in Sources */,

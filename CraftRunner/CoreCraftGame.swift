@@ -21,12 +21,14 @@ public class coreGame {
     static var resCount = 10
     static var knownKeys = []
     static var knownValues = []
+    let introMessages = ["You suddenly wake up in the middle of a vast forest.","You look around","There's nobody around...only you","However, there are many natural resources around you", "You realize that the only way to survive is to explore and gather"]
+    var introIndex = 0
     
     public func play(gameText: UILabel, terrain: String, buttonOne: UIButton, buttonTwo: UIButton) -> Void {
         
         // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=START=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
         if saved.boolForKey("NeedTutorial"){
-            gameText.text = "You suddenly wake up in the middle of a vast forest."
+            
             buttonOne.hidden = true
             buttonTwo.hidden = true
             
@@ -34,25 +36,16 @@ public class coreGame {
             
             var time = dispatch_time(DISPATCH_TIME_NOW, Int64(timeDelay))
             
-            dispatch_after(time, dispatch_get_main_queue()){
-                UIView.animateWithDuration(2.5, animations: {
-                    gameText.alpha = 0
-                    
-                    
-                })
-                gameText.text = "You look around"
+            introAnimation(gameText, buttonOne: buttonOne, buttonTwo: buttonTwo)
             
-                
-                
-                UIView.animateWithDuration(1.5, animations: {
-                    gameText.alpha = 1
+            
+            
+                            
+                  
                     
-                    
-                })
-            }
-           
-            buttonOne.hidden = false
-            buttonTwo.hidden = false
+            
+            
+            
         }
         //--------------------------------GAME-START-------------------------------------------------
         else{
@@ -62,11 +55,27 @@ public class coreGame {
         }
         
     }
+    public func introAnimation(gameText: UILabel, buttonOne: UIButton, buttonTwo: UIButton) -> Void {
+        gameText.text = introMessages[introIndex]
+        introIndex++
+            UIView.animateWithDuration(2.0, delay: 1.0, options: .CurveEaseInOut, animations: { () -> Void in
+                gameText.alpha=1.0
+                }, completion: { (success) -> Void in
+                    UIView.animateWithDuration(2.0, delay: 1.0, options: .CurveEaseInOut, animations: {() -> Void in
+                        gameText.alpha = 0
+                        }, completion: { (success) -> Void in
+                            if (self.introIndex < self.introMessages.count){
+                                self.introAnimation(gameText, buttonOne: buttonOne, buttonTwo: buttonTwo)
+                            }
+                            else{
+                                buttonOne.hidden = false
+                                buttonTwo.hidden = false
+                            }
+                    })
+            })
+        }
         
-}
+        
+    }
 
-    
-    
-    
-    
-    
+

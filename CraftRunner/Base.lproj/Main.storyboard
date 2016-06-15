@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--GAME-->
         <scene sceneID="uCO-nt-QZs">
             <objects>
                 <viewController id="aE9-R0-JNX" customClass="MainGameController" customModule="CraftRunner" customModuleProvider="target" sceneMemberID="viewController">
@@ -92,12 +92,12 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="944-gX-PWZ">
-                                <rect key="frame" x="75" y="332" width="61" height="30"/>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="944-gX-PWZ">
+                                <rect key="frame" x="78" y="426" width="61" height="30"/>
                                 <state key="normal" title="GATHER"/>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWK-o3-hsw">
-                                <rect key="frame" x="250" y="332" width="59" height="30"/>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWK-o3-hsw">
+                                <rect key="frame" x="253" y="426" width="59" height="30"/>
                                 <state key="normal" title="MOVE"/>
                             </button>
                         </subviews>
@@ -105,8 +105,10 @@
                             <constraint firstItem="hcx-su-Ahq" firstAttribute="centerY" secondItem="M1W-Gq-ihj" secondAttribute="centerY" constant="-62" id="0EL-jo-jzm"/>
                             <constraint firstItem="5y3-CM-778" firstAttribute="centerX" secondItem="M1W-Gq-ihj" secondAttribute="centerX" id="0lq-KU-vHH"/>
                             <constraint firstItem="hcx-su-Ahq" firstAttribute="centerX" secondItem="M1W-Gq-ihj" secondAttribute="centerX" id="1Yt-Yc-5Fl"/>
+                            <constraint firstItem="944-gX-PWZ" firstAttribute="centerX" secondItem="M1W-Gq-ihj" secondAttribute="centerX" constant="-82" id="45g-a5-vAW"/>
                             <constraint firstItem="hcx-su-Ahq" firstAttribute="centerY" secondItem="M1W-Gq-ihj" secondAttribute="centerY" constant="-9" id="4GU-RB-L4V"/>
                             <constraint firstItem="hcx-su-Ahq" firstAttribute="centerY" secondItem="M1W-Gq-ihj" secondAttribute="centerY" constant="-71" id="54Y-48-1iS"/>
+                            <constraint firstItem="DWK-o3-hsw" firstAttribute="centerY" secondItem="M1W-Gq-ihj" secondAttribute="centerY" constant="107.5" id="6e8-ZZ-YN1"/>
                             <constraint firstItem="ULa-ig-tVa" firstAttribute="trailing" secondItem="5y3-CM-778" secondAttribute="trailing" id="8Tj-u1-2CE"/>
                             <constraint firstItem="t5H-Rz-Q1u" firstAttribute="centerY" secondItem="M1W-Gq-ihj" secondAttribute="centerY" id="96i-zO-CBQ"/>
                             <constraint firstItem="ULa-ig-tVa" firstAttribute="centerY" secondItem="M1W-Gq-ihj" secondAttribute="centerY" constant="-203" id="Bvo-Hc-2ht"/>
@@ -114,21 +116,31 @@
                             <constraint firstItem="t5H-Rz-Q1u" firstAttribute="centerX" secondItem="M1W-Gq-ihj" secondAttribute="centerX" id="Dqb-e8-IR1"/>
                             <constraint firstItem="hcx-su-Ahq" firstAttribute="centerX" secondItem="M1W-Gq-ihj" secondAttribute="centerX" id="JHQ-iw-49I"/>
                             <constraint firstItem="ULa-ig-tVa" firstAttribute="centerY" secondItem="M1W-Gq-ihj" secondAttribute="centerY" constant="-161.5" id="KYr-cy-qMD"/>
+                            <constraint firstItem="DWK-o3-hsw" firstAttribute="centerX" secondItem="M1W-Gq-ihj" secondAttribute="centerX" constant="95" id="N2m-rE-sud"/>
                             <constraint firstItem="ULa-ig-tVa" firstAttribute="centerX" secondItem="M1W-Gq-ihj" secondAttribute="centerX" id="PE9-JI-uk4"/>
                             <constraint firstItem="hcx-su-Ahq" firstAttribute="centerX" secondItem="M1W-Gq-ihj" secondAttribute="centerX" id="PiK-qd-KNT"/>
+                            <constraint firstItem="DWK-o3-hsw" firstAttribute="centerY" secondItem="M1W-Gq-ihj" secondAttribute="centerY" constant="13.5" id="S3L-pm-3h4"/>
                             <constraint firstItem="5y3-CM-778" firstAttribute="centerY" secondItem="M1W-Gq-ihj" secondAttribute="centerY" constant="-201.5" id="Tli-kL-04S"/>
                             <constraint firstItem="5y3-CM-778" firstAttribute="centerX" secondItem="M1W-Gq-ihj" secondAttribute="centerX" id="TtG-Bf-wtl"/>
+                            <constraint firstItem="DWK-o3-hsw" firstAttribute="centerY" secondItem="M1W-Gq-ihj" secondAttribute="centerY" constant="145.5" id="WGc-N2-JGA"/>
                             <constraint firstItem="5y3-CM-778" firstAttribute="centerY" secondItem="M1W-Gq-ihj" secondAttribute="centerY" constant="-167" id="WtX-k1-ZkY"/>
                             <constraint firstItem="LAS-3O-Fgb" firstAttribute="centerY" secondItem="M1W-Gq-ihj" secondAttribute="centerY" constant="79.5" id="XWo-j2-Ufs"/>
+                            <constraint firstItem="944-gX-PWZ" firstAttribute="centerY" secondItem="M1W-Gq-ihj" secondAttribute="centerY" constant="13.5" id="YKb-HC-MOT"/>
+                            <constraint firstItem="944-gX-PWZ" firstAttribute="centerX" secondItem="M1W-Gq-ihj" secondAttribute="centerX" constant="-121" id="Ydv-Lj-9n1"/>
                             <constraint firstItem="ULa-ig-tVa" firstAttribute="leading" secondItem="5y3-CM-778" secondAttribute="leading" id="Yvr-vE-uac"/>
                             <constraint firstItem="5y3-CM-778" firstAttribute="centerY" secondItem="M1W-Gq-ihj" secondAttribute="centerY" constant="114" id="a1B-vd-CZV"/>
+                            <constraint firstItem="DWK-o3-hsw" firstAttribute="centerX" secondItem="M1W-Gq-ihj" secondAttribute="centerX" constant="121" id="aXV-rl-ptZ"/>
                             <constraint firstItem="hcx-su-Ahq" firstAttribute="centerX" secondItem="M1W-Gq-ihj" secondAttribute="centerX" id="b9Y-pd-FgJ"/>
                             <constraint firstItem="ULa-ig-tVa" firstAttribute="centerY" secondItem="M1W-Gq-ihj" secondAttribute="centerY" constant="-299.5" id="bGL-eY-irr"/>
+                            <constraint firstItem="944-gX-PWZ" firstAttribute="centerY" secondItem="M1W-Gq-ihj" secondAttribute="centerY" constant="107.5" id="cSK-5c-yzk"/>
+                            <constraint firstItem="944-gX-PWZ" firstAttribute="centerY" secondItem="M1W-Gq-ihj" secondAttribute="centerY" constant="145.5" id="etc-PK-wP5"/>
                             <constraint firstItem="LAS-3O-Fgb" firstAttribute="centerX" secondItem="M1W-Gq-ihj" secondAttribute="centerX" id="f8Q-9e-5eA"/>
                             <constraint firstItem="ULa-ig-tVa" firstAttribute="top" secondItem="0bj-v4-tCw" secondAttribute="bottom" id="ggp-xi-Lcx"/>
                             <constraint firstItem="ULa-ig-tVa" firstAttribute="centerY" secondItem="M1W-Gq-ihj" secondAttribute="centerY" constant="-265" id="hof-F8-j6X"/>
+                            <constraint firstItem="DWK-o3-hsw" firstAttribute="centerX" secondItem="M1W-Gq-ihj" secondAttribute="centerX" constant="92" id="iAD-35-hiZ"/>
                             <constraint firstItem="ULa-ig-tVa" firstAttribute="centerX" secondItem="M1W-Gq-ihj" secondAttribute="centerX" constant="-148" id="iyL-qV-Hrn"/>
                             <constraint firstItem="hcx-su-Ahq" firstAttribute="centerY" secondItem="M1W-Gq-ihj" secondAttribute="centerY" constant="-96.5" id="jbl-Bz-H3t"/>
+                            <constraint firstItem="944-gX-PWZ" firstAttribute="centerX" secondItem="M1W-Gq-ihj" secondAttribute="centerX" constant="-79" id="jsU-or-hbE"/>
                             <constraint firstItem="ULa-ig-tVa" firstAttribute="centerX" secondItem="M1W-Gq-ihj" secondAttribute="centerX" id="qSV-Lr-VKB"/>
                             <constraint firstItem="ULa-ig-tVa" firstAttribute="centerX" secondItem="M1W-Gq-ihj" secondAttribute="centerX" id="qdC-Dz-2i1"/>
                             <constraint firstItem="5y3-CM-778" firstAttribute="centerY" secondItem="M1W-Gq-ihj" secondAttribute="centerY" constant="-105" id="qtP-qK-8v5"/>
@@ -157,10 +169,18 @@
                                 <exclude reference="PiK-qd-KNT"/>
                                 <exclude reference="b9Y-pd-FgJ"/>
                                 <exclude reference="jbl-Bz-H3t"/>
+                                <exclude reference="45g-a5-vAW"/>
+                                <exclude reference="YKb-HC-MOT"/>
+                                <exclude reference="Ydv-Lj-9n1"/>
+                                <exclude reference="etc-PK-wP5"/>
+                                <exclude reference="S3L-pm-3h4"/>
+                                <exclude reference="WGc-N2-JGA"/>
+                                <exclude reference="aXV-rl-ptZ"/>
+                                <exclude reference="iAD-35-hiZ"/>
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="2Sn-Ir-Iey"/>
+                    <tabBarItem key="tabBarItem" title="GAME" id="2Sn-Ir-Iey"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="desertButton" destination="5y3-CM-778" id="65R-P0-2zP"/>
@@ -176,7 +196,44 @@
             </objects>
             <point key="canvasLocation" x="951.5" y="892.5"/>
         </scene>
-        <!--Item 1-->
+        <!--Item-->
+        <scene sceneID="cns-ie-hgk">
+            <objects>
+                <collectionViewController id="IfL-O1-li2" customClass="InventoryViewController" customModule="CraftRunner" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="y85-Zr-RfH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="BrA-jT-pfL">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CraftItem" id="RPW-Jl-dOv">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="IfL-O1-li2" id="XmG-FP-IvY"/>
+                            <outlet property="delegate" destination="IfL-O1-li2" id="dEK-8f-JcV"/>
+                        </connections>
+                    </collectionView>
+                    <tabBarItem key="tabBarItem" title="Item" id="ap7-4u-PWW"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0r6-4C-z4t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1455.5" y="844.5"/>
+        </scene>
+        <!--MAP-->
         <scene sceneID="cZ6-eC-B9H">
             <objects>
                 <viewController id="5JX-1s-Ifb" customClass="TabBarController" customModule="CraftRunner" customModuleProvider="target" sceneMemberID="viewController">
@@ -185,15 +242,16 @@
                         <viewControllerLayoutGuide type="bottom" id="yp1-Qe-ZQ2"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="EkP-Ns-VCH">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="d9y-vE-Ea3"/>
+                    <tabBarItem key="tabBarItem" title="MAP" id="d9y-vE-Ea3"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pcQ-Qg-DTU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1042" y="95"/>
+            <point key="canvasLocation" x="951.5" y="104.5"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="OUo-Tt-QzO">
@@ -207,6 +265,7 @@
                     <connections>
                         <segue destination="5JX-1s-Ifb" kind="relationship" relationship="viewControllers" id="X6o-dh-pOZ"/>
                         <segue destination="aE9-R0-JNX" kind="relationship" relationship="viewControllers" id="Nbc-iy-ZyE"/>
+                        <segue destination="IfL-O1-li2" kind="relationship" relationship="viewControllers" id="jWE-e3-GQE"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JWy-jc-7YH" userLabel="First Responder" sceneMemberID="firstResponder"/>
